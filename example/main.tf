@@ -22,6 +22,12 @@ module "budget_alerts" {
     ECR = {
       budget_limit = 10.4
     }
+    StepFunctions = {
+      budget_limit = 10.4
+    }
+    Personalize = {
+      budget_limit = 10.4
+    }
   }
 
   notifications = {
